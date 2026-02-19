@@ -1,0 +1,31 @@
+{
+  "name": "freelang-v4-bytecode-cache",
+  "version": "1.0.0",
+  "description": "FreeLang v4 Bytecode Caching System - Bytecode Generation + Cache Management + Memory Optimization",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "bytecode",
+    "caching",
+    "performance",
+    "compilation",
+    "memory-management",
+    "migration"
+  ],
+  "author": "Claude",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.0.0",
+    "rimraf": "^5.0.0",
+    "ts-jest": "^29.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {}
+}
